@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#ignore Rust build files
+Rust
+target/
+Cargo.lock
