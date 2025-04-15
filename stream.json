@@ -1,0 +1,12 @@
+{"email": "test@example.com"}
+{"email": "invalid.email"}
+{"number": "123.45"}
+{"number": "abc"}
+{"bad": "not json"}
+{"url": "HTTPS://Example.COM/path"}
+{"url": "ftp://bad"}
+{"boolean": "TRUE"}
+{"boolean": "maybe"}
+{"invalid": "data"}
+{"url": "HTTP://TEST.ORG/path"}
+{"number": "42"}
