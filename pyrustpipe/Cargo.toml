@@ -11,3 +11,4 @@ crate-type = ["cdylib"]
 pyo3 = { version = "0.22.6", features = ["extension-module"] }
 regex = "1.11.1"
 serde_json = "1.0.132"
+rayon = "1.10"

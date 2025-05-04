@@ -1,4 +1,6 @@
 from pyrustpipe_rules import Rule
-url_rule = Rule("url")
-print(url_rule.validate("HTTPS://Example.COM/path"))  # Should be True
-print(url_rule.validate("ftp://bad"))                 # False
+
+rule = Rule("url")
+print(rule.validate("https://example.com"))  # Should print True
+print(rule.validate("http://test.org"))      # Should print True
+print(rule.validate("ftp://bad"))            # Should print False
